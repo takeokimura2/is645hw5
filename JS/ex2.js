@@ -14,7 +14,7 @@ const divisible2or5 = anArray.filter(x => x % 2 === 0 || x % 5 === 0);
 
 console.log(divisible2or5);
 
-const divisible3squared = anArray.filter(x => x % (3 ** 2) === 0);
+const divisible3squared = anArray.filter(x => x % 3 === 0).map(x => x ** 2);
 
 console.log(divisible3squared);
 
